@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/LucianoGanga/simple-rbac.git"
+    "url": "git://github.com:Ronelg/simple-rbac.git"
   },
   "keywords": [
     "mongoose",

@@ -780,6 +780,10 @@ function init(collections, options) {
 			if (opts.lean) {
 				query.lean();
 			}
+
+			if(opts.populate){
+				query.populate(opts.populate)
+			}
 			query.exec(done);
 		},
 
